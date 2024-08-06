@@ -12,23 +12,23 @@ void main() {
 
   //3. reduce method
   marks.reduce(max).toInt();
-  print('reduced = ''$marks');
+  print('reduced = ' '$marks');
 
   //4. insert method
   marks.insert(2, 45);
-  print('inserted = ''$marks');
+  print('inserted = ' '$marks');
 
   //5.sort method
   marks.sort();
-  print('sorted = ''$marks');
+  print('sorted = ' '$marks');
 
 //6. removeAt method
   marks.removeAt(3);
-  print('removedAt = ''$marks');
+  print('removedAt = ' '$marks');
 
   //7.checking index method
   int index = marks.indexOf(78);
-  print('index = ''$index');
+  print('index = ' '$index');
 
   //8. reverse method
   marks = marks.reversed.toList();
@@ -36,7 +36,7 @@ void main() {
 
   //9.first method
   int firstnum = marks.first;
-print('firstnum = ''$firstnum');
+  print('firstnum = ' '$firstnum');
 
   //10.clear method
   marks.clear();
